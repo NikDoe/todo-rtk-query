@@ -1,6 +1,7 @@
+import TodoList from './features/TodoList';
+
 function App() {
-	console.log();
-	return <div className="App">{'Hello There😊'}</div>;
+	return <TodoList />;
 }
 
 export default App;
